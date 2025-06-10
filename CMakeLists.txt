@@ -3,6 +3,6 @@ project(MedianLib)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(MedianLib STATIC median_filter_algorithms.cpp)
+add_library(MedianLib STATIC src/median_filter_algorithms.cpp)
 
 add_subdirectory(tests)

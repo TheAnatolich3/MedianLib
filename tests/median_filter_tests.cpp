@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../median_filter.h"
+#include "../src/median_filter.h"
 #include <algorithm>
 #include <vector>
 #include <random>
